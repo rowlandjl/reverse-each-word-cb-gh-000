@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
   reversed.join(" ")
 end
 
-def reverse_each_word
+def reverse_each_word(sentence)
   split_sentence = sentence.split(" ")
 
   reversed = []
